@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  background: rgba(0,0,0,0.3) url("https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 100vh !important;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-blend-mode: darken;
+}
+ 
+.RightBar {
+  width: 65%;
+  margin-right: auto !important;
+  height: 100vh;
+  position: relative;
+}
+
+.temp {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: white;
+}
+
+.temp h1 {
+  font-size: 7rem;
+}
+
+.time h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.time {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}

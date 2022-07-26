@@ -1,0 +1,80 @@
+.Side-Bar {
+    position: absolute;
+    right: 0%;
+    width: 35%;
+}
+
+.Side-Bar-Img {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+.Side-bar-content {
+    position: absolute;
+    top: 5%;
+    color: white;
+    width: 90%;
+    height: calc(100vh - 5%);
+    left: 5%;
+}
+
+.icon {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.Side-bar-content .weather {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.search input {
+    width: 90%;
+    padding: 0px 10px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid gray;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.search input::placeholder {
+    color: white;
+    font-weight: normal;
+}
+
+.search button {
+    width: 10%;
+    height: 40px;
+    background: rgb(146, 145, 145);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.search button:hover {
+    background: black;
+}
+
+.search button img {
+    height: 20px;
+    filter: invert(100%);
+}
+
+
+.tile{
+    padding: 5px 10px;
+    border-top: 1px solid gray;
+}
+
+.tile p{
+    font-size: 1.4rem;
+    margin-bottom: 0% !important;
+}
